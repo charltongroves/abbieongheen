@@ -42,7 +42,7 @@ class MaterialNav extends Component {
           style={transp}
           onLeftIconButtonTouchTap={this.handleToggle}
           title="Abbie Ongheen"
-          iconElementLeft={<div>Abbie Ongheen</div>}
+          iconElementLeft={<NavigationMenu />}
           iconElementRight={<MaterialTabs currentRoute={this.state.currentRoute}/>}
           iconStyleLeft={iconStyle}
           zDepth={0}/>
