@@ -1,0 +1,28 @@
+  * {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: visible;
+}
+
+$break-mobile: 700px;
+$perspective: 100px;
+$vertOffset: 0px;
+.heroText {
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+}
+
+.no-blue-link {
+  a {
+    color: white;
+  }
+  a:hover {
+    color: hsl(189, 86%, 62%);
+    cursor: pointer;
+  }
+}
+
+

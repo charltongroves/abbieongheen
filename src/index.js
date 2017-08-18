@@ -1,21 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-import { BrowserRouter, Route } from 'react-router-dom';
-import TopNav from './js/components/MaterialNav'
-import HomePage from './js/pages/home'
-import store from './js/store'
-import registerServiceWorker from './js/registerServiceWorker';
 import './css/index.css';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-
 import {cyan500, cyan700,
   pinkA200,
   grey100, grey300, grey400, grey500,
   white, darkBlack, fullBlack,} from 'material-ui/styles/colors';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import {BrowserRouter, Route} from "react-router-dom";
+import Layout from "./js/pages/layout"
+
 injectTapEventPlugin();
 
 const muiTheme = getMuiTheme({
@@ -38,19 +33,12 @@ const muiTheme = getMuiTheme({
     height: 50,
   },
 });
-
 ReactDOM.render(
-    <Provider store={store}>
-        <MuiThemeProvider muiTheme={muiTheme}>
-            <BrowserRouter>
-                <div>
-                    <TopNav/>
-                    <Route exact path="/" component={HomePage}/>
-                </div>
-            </BrowserRouter>
-        </MuiThemeProvider>
-    </Provider>
-    , document.getElementById('root')
+  <MuiThemeProvider muiTheme={muiTheme}>
+    <BrowserRouter>
+      <Route path="/" component={Layout}>
+      </Route>
+    </BrowserRouter>
+  </MuiThemeProvider>,
+  document.getElementById('root')
 );
-
-registerServiceWorker();

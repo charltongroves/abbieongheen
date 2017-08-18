@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f16349; }
+
+html {
+  overflow-y: scroll; }
+
+@media screen and (min-width: 700px) {
+  .hide-desktop {
+    display: none !important; } }
+@media screen and (max-width: 700px) {
+  .hide-mobile {
+    display: none !important; } }
+.bg-fixed {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1; }
+
+a {
+  text-decoration: none; }
+
+.code-card:hover {
+  transform: translate(1px, -1px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23) !important; }
+
+.example-enter {
+  opacity: 0.01; }
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in; }
+
+.example-leave {
+  opacity: 1; }
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in; }
+
+.svg {
+  max-width: 80%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; }
+
+.path {
+  fill-opacity: 0;
+  stroke-width: 1;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-name: draw, FillIn;
+  animation-timing-function: ease;
+  stroke: rgba(0, 0, 0, 0.5);
+  stroke-dasharray: 2810;
+  stroke-dashoffset: 2810;
+  animation-duration: 5s, 1s;
+  animation-delay: 1s, 2s; }
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0; } }
+@keyframes FillIn {
+  from {
+    fill-opacity: 0; }
+  to {
+    fill-opacity: 1; } }
+@keyframes show {
+  to {
+    opacity: 1; } }
+.easeIn {
+  opacity: 0;
+  animation-name: display;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-duration: 0.3s; }
+
+@keyframes display {
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  overflow-y: visible; }
+
+.heroText {
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500; }
+
+.no-blue-link a {
+  color: white; }
+.no-blue-link a:hover {
+  color: #4bd8f1;
+  cursor: pointer; }
+
+/*# sourceMappingURL=home.css.map */

@@ -6,8 +6,7 @@ import {Link} from 'react-router-dom'
 import IconButton from 'material-ui/IconButton';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 import NavigationMenu from 'material-ui/svg-icons/navigation/menu';
-import MaterialTabs from './MaterialTabs.js'
-
+import MaterialTabs from './Tabs.js'
 
 class MaterialNav extends Component {
   constructor(props) {
@@ -38,14 +37,14 @@ class MaterialNav extends Component {
     return (
       <div>
         <AppBar
-          className="hidden-tablet"
           style={transp}
           onLeftIconButtonTouchTap={this.handleToggle}
-          title="Abbie Ongheen"
-          iconElementLeft={<div>Abbie Ongheen</div>}
-          iconElementRight={<MaterialTabs currentRoute={this.state.currentRoute}/>}
+          title={this.props.title}
+          iconElementLeft={<IconButton className="hide-desktop"><NavigationMenu /></IconButton>}
+          iconElementRight={<MaterialTabs className="hide-mobile" currentRoute={this.state.currentRoute}/>}
           iconStyleLeft={iconStyle}
           zDepth={0}/>
+          
         <Drawer
           docked={false}
           width={200}
@@ -55,14 +54,14 @@ class MaterialNav extends Component {
           <Link to={'/'}>
             <MenuItem onTouchTap={this.handleClose}>Home</MenuItem>
           </Link>
-          <Link to={'/code'}>
-            <MenuItem onTouchTap={this.handleClose}>Code</MenuItem>
+          <Link to={'/design'}>
+            <MenuItem onTouchTap={this.handleClose}>Design</MenuItem>
           </Link>
           <Link to={'/art'}>
             <MenuItem onTouchTap={this.handleClose}>Art</MenuItem>
           </Link>
-          <Link to={'/design'}>
-            <MenuItem onTouchTap={this.handleClose}>Design</MenuItem>
+          <Link to={'/contact'}>
+            <MenuItem onTouchTap={this.handleClose}>Resume</MenuItem>
           </Link>
         </Drawer>
       </div>
