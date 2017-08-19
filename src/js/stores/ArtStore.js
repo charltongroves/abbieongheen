@@ -9,7 +9,7 @@ class ArtStore extends EventEmitter {
             img: Jellyimg,
             name: "Jellyfish",
             medium: "pen, digital",
-            desc: "",
+            desc: "My friends",
             date: "2017 February",
         }]
     }
