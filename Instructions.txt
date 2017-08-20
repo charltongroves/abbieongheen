@@ -1,0 +1,29 @@
+Open command prompt (type 'cmd' into the start menu, or click on the icon for it in the start bar thing)
+
+Type 'cd OneDrive' (Open the onedrive folder)
+then 'cd Documents' (Open the documents folder)
+then 'cd Abbie' (then press 'tab' so that the command prompt can auto-complete that for you)
+
+Now your terminal is inside the folder that has your website stuff in it
+
+Now you can run some of the following commands
+
+To open the development server and view your website, type 
+'npm start'
+To exit the server once you're running it, press Ctrl + C
+if something goes wrong, try typing
+'npm install'
+and then
+'npm start'
+If something goes wrong again, talk to charlie :)
+
+
+
+After you have made some changes that you're happy with, you can save these changes by typing the following
+(NOTE: your terminal has to be inside the folder that has your website stuff in it)
+'git add .' (this tells git that you want to save every file you've changed)
+'git commit -m "Type whatever you want here"' (This saves the changes and adds a note explaining what the changes are
+'git push' (This will upload the changes to github)
+
+
+
