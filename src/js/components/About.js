@@ -34,7 +34,7 @@ class About extends Component {
             <div style={styles.container}>
                 <div style={styles.align}>
                     <img src={Face} style={styles.face} alt="charlie groves"/>
-                    <h1 style={styles.h}>Hey</h1>
+                    <h1 style={styles.h}>I LOVE U ABBIE</h1>
                     <p style={styles.p}>I’m a Graphic Designer and Illustrator based in Brisbane. I’m currently studying a Bachelor of Design at 
                       Griffith University Queensland College of Art (Graduating July 2019). 
                     </p>
