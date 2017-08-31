@@ -28,6 +28,9 @@ class MaterialNav extends Component {
       maxWidth: "1200px",
       margin: "0 auto"
     }
+    const navtext = {
+      color: "#333"
+    }
     const iconStyle = {
       color: "#f00"
     }
@@ -61,7 +64,7 @@ class MaterialNav extends Component {
             <MenuItem onTouchTap={this.handleClose}>Art</MenuItem>
           </Link>
           <Link to={'/contact'}>
-            <MenuItem onTouchTap={this.handleClose}>Resume</MenuItem>
+            <MenuItem style={navtext}onTouchTap={this.handleClose}>Resume</MenuItem>
           </Link>
         </Drawer>
       </div>

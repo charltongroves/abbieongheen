@@ -15,14 +15,137 @@ $vertOffset: 0px;
   font-weight: 500;
 }
 
-.no-blue-link {
-  a {
-    color: white;
-  }
-  a:hover {
-    color: hsl(189, 86%, 62%);
-    cursor: pointer;
-  }
+.parallax-cont {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 
+.parallax {
+  perspective: $perspective;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
 
+.parallax__layer {
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  animation-name: display;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-duration: 0.3s;
+  img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
+  .hero-text-cont {
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding-left: 50%;
+    text-align: center;
+    color: #fff;
+    bottom: 320px;
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px;
+    * {
+      width: 30rem;
+    }
+    h1 {
+      font-family: "Pacifico", cursive;
+      font-size: 7rem;
+      margin: 0;
+      margin-bottom: -3rem;
+      font-weight: normal;
+      color: #6a1aff;
+    }
+    h2 {
+      font-size: 4rem;
+      margin: 0;
+      font-weight: 100;
+      color: #333;
+    }
+    h3 {
+      font-size: 2.5rem;
+      margin: 0;
+      font-weight: 300;
+      color: #333;
+    }
+    h4 {
+      font-size: 2rem;
+      margin: 1rem 0;
+      font-weight: 500;
+      color: #6a1aff;
+    }
+    @media screen and (max-width: $break-mobile) {
+      bottom: 290px;
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 4rem;
+      }
+      h3 {
+        font-size: 1rem;
+      }
+      h4 {
+        font-size: 1rem;
+      }
+    }
+    }
+  }
+  $vertOffset: 150px;
+  .parallax__cover {
+    background-color: hsl(138, 53%, 8.35%);
+    position: absolute;
+    top: 99%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1200px;
+    overflow-y: hidden;
+    z-index: 2;
+  }
+
+  .parallax__cover {
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #65BBDD;
+      text-decoration: none;
+    }
+  }
+  $parallax__layers: 7;
+  @for $i from 1 through $parallax__layers {
+    $x: ($parallax__layers - $i) / 3;
+    $bright: (($parallax__layers - $i)/3.0);
+    .parallax__layer__#{$i} {
+      transform: translateZ(-1 * $perspective * $x) scale($x + 1);
+      animation-name: display;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease;
+      animation-delay: $x * 0.4s;
+      animation-duration: 0.5s;
+    }
+  }
+  @keyframes display {
+    to {
+      opacity: 1;
+    }
+  }

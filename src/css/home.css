@@ -9,10 +9,162 @@ html {
   color: rgba(255, 255, 255, 0.8);
   font-weight: 500; }
 
-.no-blue-link a {
-  color: white; }
-.no-blue-link a:hover {
-  color: #4bd8f1;
-  cursor: pointer; }
+.parallax-cont {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0; }
+
+.parallax {
+  perspective: 100px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0; }
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  animation-name: display;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-duration: 0.3s; }
+  .parallax__layer img {
+    display: block;
+    position: absolute;
+    bottom: 0; }
+  .parallax__layer .hero-text-cont {
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding-left: 50%;
+    text-align: center;
+    color: #fff;
+    bottom: 320px;
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px; }
+    .parallax__layer .hero-text-cont * {
+      width: 30rem; }
+    .parallax__layer .hero-text-cont h1 {
+      font-family: "Pacifico", cursive;
+      font-size: 7rem;
+      margin: 0;
+      margin-bottom: -3rem;
+      font-weight: normal;
+      color: #6a1aff; }
+    .parallax__layer .hero-text-cont h2 {
+      font-size: 4rem;
+      margin: 0;
+      font-weight: 100;
+      color: #333; }
+    .parallax__layer .hero-text-cont h3 {
+      font-size: 2.5rem;
+      margin: 0;
+      font-weight: 300;
+      color: #333; }
+    .parallax__layer .hero-text-cont h4 {
+      font-size: 2rem;
+      margin: 1rem 0;
+      font-weight: 500;
+      color: #6a1aff; }
+    @media screen and (max-width: 700px) {
+      .parallax__layer .hero-text-cont {
+        bottom: 290px; }
+        .parallax__layer .hero-text-cont h1 {
+          font-size: 2rem; }
+        .parallax__layer .hero-text-cont h2 {
+          font-size: 4rem; }
+        .parallax__layer .hero-text-cont h3 {
+          font-size: 1rem; }
+        .parallax__layer .hero-text-cont h4 {
+          font-size: 1rem; } }
+
+.parallax__cover {
+  background-color: #0a2111;
+  position: absolute;
+  top: 99%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1200px;
+  overflow-y: hidden;
+  z-index: 2; }
+
+.parallax__cover a {
+  color: #fff;
+  text-decoration: none; }
+.parallax__cover a:hover {
+  color: #65BBDD;
+  text-decoration: none; }
+
+.parallax__layer__1 {
+  transform: translateZ(-200px) scale(3);
+  animation-name: display;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-delay: 0.8s;
+  animation-duration: 0.5s; }
+
+.parallax__layer__2 {
+  transform: translateZ(-166.66667px) scale(2.66667);
+  animation-name: display;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-delay: 0.66667s;
+  animation-duration: 0.5s; }
+
+.parallax__layer__3 {
+  transform: translateZ(-133.33333px) scale(2.33333);
+  animation-name: display;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-delay: 0.53333s;
+  animation-duration: 0.5s; }
+
+.parallax__layer__4 {
+  transform: translateZ(-100px) scale(2);
+  animation-name: display;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-delay: 0.4s;
+  animation-duration: 0.5s; }
+
+.parallax__layer__5 {
+  transform: translateZ(-66.66667px) scale(1.66667);
+  animation-name: display;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-delay: 0.26667s;
+  animation-duration: 0.5s; }
+
+.parallax__layer__6 {
+  transform: translateZ(-33.33333px) scale(1.33333);
+  animation-name: display;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-delay: 0.13333s;
+  animation-duration: 0.5s; }
+
+.parallax__layer__7 {
+  transform: translateZ(0px) scale(1);
+  animation-name: display;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-duration: 0.5s; }
+
+@keyframes display {
+  to {
+    opacity: 1; } }
 
 /*# sourceMappingURL=home.css.map */

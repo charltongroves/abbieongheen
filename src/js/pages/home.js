@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import About from '../components/About.js'
+import ParalaxMast from '../components/Parralax.js'
 import '../../css/home.css';
 class Home extends Component {
   render() {
@@ -22,7 +22,7 @@ class Home extends Component {
     }
     return (
       <div className="easeIn" style={styles.container}>
-        <About />
+        <ParalaxMast />
       </div>
     );
   }

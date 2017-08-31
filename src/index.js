@@ -23,7 +23,7 @@ const muiTheme = getMuiTheme({
     accent2Color: grey100,
     accent3Color: grey500,
     textColor: darkBlack,
-    alternateTextColor: white,
+    alternateTextColor: darkBlack,
     canvasColor: white,
     borderColor: grey300,
     pickerHeaderColor: cyan500,
