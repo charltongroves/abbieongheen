@@ -10,6 +10,7 @@ export const designs = [
   {
     label: "Expanding Discrete States Window Decal Concept",
     image: craftanddesignconcept,
+    key: "craftanddesignconcept",
     description:
       "concept design for the Expanding Discrete States: Craft and Design art exhibition",
     imageSet: [craftanddesignconcept],
@@ -17,6 +18,7 @@ export const designs = [
   {
     label: "Griffith University Artwork Concept",
     image: griffithartworkconcept,
+    key: "griffithartworkconcept",
     description:
       "concept design for an illustrative style poster for the Griffith undergraduate course guide",
     imageSet: [griffithartworkconcept],
@@ -24,6 +26,7 @@ export const designs = [
   {
     label: "Rails Illustration Concept Designs",
     image: railsartworkconcept,
+    key: "railsartworkconcept",
     description: "concept designs for illustrations for the Rails website",
     imageSet: [
       railsartworkconcept,
@@ -36,6 +39,7 @@ export const designs = [
   {
     label: "Rails Business Card Concept (Back)",
     image: railsbusinesscardconceptback,
+    key: "railsbusinesscardconceptback",
     description: "concept designs for business cards for the rails brand",
     imageSet: [
       railsartworkconcept,
@@ -48,6 +52,7 @@ export const designs = [
   {
     label: "Rails Business Card Concept (Front)",
     image: railsbusinesscardconceptfront,
+    key: "railsbusinesscardconceptfront",
     description: "concept designs for business cards for the rails brand",
     imageSet: [
       railsartworkconcept,
@@ -60,6 +65,7 @@ export const designs = [
   {
     label: "Rails Mobile Layout Concept",
     image: railsmobileconcept,
+    key: "railsmobileconcept",
     description: "concept design for rails mobile website",
     imageSet: [
       railsartworkconcept,
@@ -72,6 +78,7 @@ export const designs = [
   {
     label: "Rails Website Concept",
     image: railswebconcept,
+    key: "railswebconcept",
     description: "concept design for the Rails website",
     imageSet: [
       railsartworkconcept,
