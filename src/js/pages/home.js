@@ -1,28 +1,19 @@
-import React, { Component } from 'react';
-import ParalaxMast from '../components/Parralax.js'
-import '../../css/home.css';
+import React, { Component } from "react";
+import "../../css/home.css";
+import illustrations from "../stores/IllustrationInfo";
+import _ from "underscore";
+
 class Home extends Component {
   render() {
-    const styles = {
-      container : {
-        width: "100vw",
-        height: "100%",
-        margin: "0 auto",
-        textAlign: "center",
-        overflowY: "hidden",
-      },
-      heroText: {
-        fontSize: "15rem",
-        color: "rgba(255,255,255,0.8)",
-        fontWeight: "500"
-      },
-      mastHead : {
-        width: "100%",
-      }
-    }
     return (
-      <div className="easeIn" style={styles.container}>
-        <ParalaxMast />
+      <div className="illustrationContainer">
+        {_.map(illustrations, data => {
+          return (
+            <div key={data.name} className="illustrationImageWrapper">
+              <img className="illustrationImage" src={data.image} />
+            </div>
+          );
+        })}
       </div>
     );
   }

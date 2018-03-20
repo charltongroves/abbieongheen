@@ -1,20 +1,24 @@
 {
-  "name": "cgwebsite",
+  "name": "abbieongheen",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "history": "^4.6.1",
-    "material-ui": "^0.17.4",
+    "history": "4.6.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
-    "react-slick": "^0.14.11",
-    "react-tap-event-plugin": "^2.0.1",
-    "react-transition-group": "^1.1.2",
-    "slick-carousel": "^1.6.0"
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
+    "eslint": "4.19.0",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-prettier": "2.6.0",
+    "eslint-plugin-react": "7.7.0",
+    "prettier": "1.11.1",
     "react-scripts": "0.9.5"
   },
   "scripts": {
@@ -22,6 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy" : "npm run build&&aws s3 sync build/ s3://abbieongheen.com --delete"
+    "deploy": "npm run build&&aws s3 sync build/ s3://abbieongheen.com --delete",
+    "sass-watch": "sass --watch src/scss:src/css"
   }
 }
