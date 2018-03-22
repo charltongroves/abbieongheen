@@ -65,6 +65,12 @@ html {
   max-width: 50rem;
   line-height: 1.8rem;
 }
+.linkText {
+  margin: 1.5rem 0;
+  max-width: 50rem;
+  line-height: 1.8rem;
+  color: $c_purple;
+}
 .display-img {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);

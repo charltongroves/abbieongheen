@@ -21,6 +21,9 @@ class illustration extends Component {
           {_.map(contactInfo.about, paragraph => (
             <div className="descText">{paragraph}</div>
           ))}
+          <Link to={"/resume.pdf"}>
+            <div className="linkText">{contactInfo.resumeLabel}</div>
+          </Link>
         </div>
       </AnimatedWrapper>
     );

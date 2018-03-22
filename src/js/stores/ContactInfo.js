@@ -12,6 +12,7 @@ export const contact = {
 
     "Commision inquiries at ongheen@gmail.com",
   ],
+  resumeLabel: "Find my resume here",
 };
 
 export default contact;
