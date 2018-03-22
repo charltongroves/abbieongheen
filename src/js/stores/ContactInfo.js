@@ -1,6 +1,6 @@
 export const contact = {
   about: [
-    "Hi I'm abbie ",
+    "Hi, I'm Abbie ",
 
     "I’m a visual communication designer from Brisbane, Australia striving to apply creative design thinking and interdisciplinary knowledge to all projects.",
 

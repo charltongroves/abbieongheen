@@ -37,7 +37,7 @@ export const designs = [
     label: "Rails Illustration Concept Designs",
     image: railsartworkconcept,
     key: "railsartworkconcept",
-    description: "Concept designs for illustrations for the Rails website",
+    description: "",
     explanation: [
       "The brief set by RAILS (Refugee and Immigration Legal Service) required a full rebrand of their website, logo, and business cards. The company had requested a rebrand that both showed professionalism and appealed to families with children. ",
 
@@ -69,8 +69,7 @@ export const designs = [
     label: "Great Barrier Grief Alphabet Set",
     image: greatbarrierposter,
     key: "greatbarrieralphabet",
-    description:
-      "Full designed alphabet for the 'Great Barrier Grief' typeface.",
+    description: "",
     explanation: [
       "The aim of this project was to design a typeface which highlighted the destruction of the Great Barrier Reef. In addition to this, I wanted the typeface to be funky, contemporary, and be able to be used in broader placements. This is why I’ve created my destruction element as a set of alternate character. The base set of this typeface would be perfectly suitable for a wide range of placements. It would particularly be effective in posters and advertising, due to its mono-line, uppercase structure.",
 
