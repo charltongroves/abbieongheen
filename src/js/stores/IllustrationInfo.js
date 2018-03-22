@@ -6,8 +6,17 @@ import jellyfish from "../../img/illustrations/jellyfish.jpg";
 import treeshousescircle from "../../img/illustrations/houses.jpg";
 import kneadkitty from "../../img/illustrations/kneadkitty.jpg";
 import redpandascream from "../../img/illustrations/redpandascream.jpg";
+import bigblackcat from "../../img/illustrations/bigblackcat.jpg";
 
 export const illustrations = [
+  {
+    label: "Big Black Cat",
+    image: bigblackcat,
+    key: "bigblackcat",
+    description: "A large black kitty in gouache",
+    imageSet: [bigblackcat],
+  },
+
   {
     label: "Forest Village",
     image: treeshousescircle,
@@ -43,13 +52,6 @@ export const illustrations = [
     key: "linoKitty",
     description: "",
     imageSet: [linoKitty, linoKitty],
-  },
-  {
-    label: "Jelly Fish",
-    image: jellyfish,
-    key: "jellyfish",
-    description: "",
-    imageSet: [jellyfish, linoKitty],
   },
 ];
 
