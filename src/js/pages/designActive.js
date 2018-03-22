@@ -14,17 +14,28 @@ class Design extends Component {
     this.props = props;
   }
   render() {
-    console.log(" WE'VE HIT THE THING", this.props.match.params.designName);
     const designInfo = _.findWhere(designs, {
       key: this.state.designActiveName,
     });
-    console.log("Thing", designInfo);
     return (
-      <div className="illustrationContainer">
-        {designInfo.label}
-        <div key={designInfo.label} className="illustrationImageWrapper">
-          <img className="illustrationImage" src={designInfo.image} />
-        </div>
+      <div className="designActive">
+        <Link to={"/design"}>
+          <div className="back-arrow-container">
+            <i className="back-arrow material-icons">arrow_back</i>
+            <span className="back-arrow-text"> Back </span>
+          </div>
+        </Link>
+        <div className="titleText">{designInfo.label}</div>
+        <div className="descText">{designInfo.description}</div>
+        {_.map(designInfo.explanation, paragraph => (
+          <div className="descText">{paragraph}</div>
+        ))}
+        {_.map(designInfo.imageSet, set => (
+          <div className="designSet">
+            <img className="designSetImg" src={set.image} />
+            <div className="descText">{set.desc}</div>
+          </div>
+        ))}
       </div>
     );
   }

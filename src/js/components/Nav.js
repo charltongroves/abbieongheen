@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import _ from "underscore";
 import Tab from "./Tab";
+import LinkedinLogo from "../../img/LinkedinLogo.png";
+import InstagramLogo from "../../img/InstagramLogo.png";
+
 class Nav extends Component {
   constructor(props) {
     super(props);
@@ -13,7 +16,7 @@ class Nav extends Component {
       {
         index: 0,
         name: "Illustration",
-        route: "",
+        route: "illustration",
       },
       {
         index: 1,
@@ -24,11 +27,6 @@ class Nav extends Component {
         index: 2,
         name: "Contact",
         route: "contact",
-      },
-      {
-        index: 3,
-        name: "Shop",
-        route: "xxx",
       },
     ];
   }
@@ -54,10 +52,18 @@ class Nav extends Component {
           <Tab
             key={tab.name}
             label={tab.name}
-            link={tab.route}
+            link={"/" + tab.route}
             active={activeTab === tab.name}
           />
         ))}
+        <div className={"socialMediaContainer"}>
+          <a href="https://www.instagram.com/abbieongheen1/">
+            <img className="socialMediaLinkImg" src={LinkedinLogo} />
+          </a>
+          <a href="https://au.linkedin.com/in/abbie-ongheen-742731102">
+            <img className="socialMediaLinkImg" src={InstagramLogo} />
+          </a>
+        </div>
       </div>
     );
   }

@@ -1,3 +1,13 @@
+.designSetImg,
+.designSetImg {
+  max-width: 50%;
+  margin: 0.75rem 0 0.25rem 0; }
 
+.designActiveTitle {
+  font-size: 2rem;
+  margin: 1rem 0 2rem 0; }
+
+.designSetDesc {
+  margin: 2rem 0; }
 
 /*# sourceMappingURL=design.css.map */

@@ -1,3 +1,12 @@
+.illustrationSetImg,
+.illustrationSetImg {
+  width: 80%; }
 
+.illustrationActiveTitle {
+  font-size: 2rem;
+  margin: 1rem 0 2rem 0; }
+
+.illustrationSetDesc {
+  margin: 2rem 0; }
 
 /*# sourceMappingURL=art.css.map */

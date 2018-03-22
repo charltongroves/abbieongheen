@@ -10,15 +10,15 @@ class Design extends Component {
       <div className="illustrationContainer">
         {_.map(designs, data => {
           return (
-            <Link
-              key={data.key}
-              to={"/design" + "/" + data.key}
-              onClick={this.handleOnLinkClick}
-            >
-              <div key={data.label} className="illustrationImageWrapper">
+            <div key={data.label} className="illustrationImageWrapper">
+              <Link
+                key={data.key}
+                to={"/design" + "/" + data.key}
+                onClick={this.handleOnLinkClick}
+              >
                 <img className="illustrationImage" src={data.image} />
-              </div>
-            </Link>
+              </Link>
+            </div>
           );
         })}
       </div>
