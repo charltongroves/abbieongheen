@@ -88,13 +88,6 @@ export const designs = [
     ],
   },
   {
-    label: "I Knead You",
-    image: kneadkitty,
-    key: "kneadkitty",
-    description: "A pencil artwork for Valentines Day",
-    imageSet: [{ image: kneadkitty }, { image: kneadkitty }],
-  },
-  {
     label: "No Interval Logo",
     image: niorangelogo,
     key: "niorangelogo",

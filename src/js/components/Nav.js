@@ -58,10 +58,10 @@ class Nav extends Component {
           />
         ))}
         <div className={"socialMediaContainer"}>
-          <a href="https://www.instagram.com/abbieongheen1/">
+          <a href="https://au.linkedin.com/in/abbie-ongheen-742731102">
             <img className="socialMediaLinkImg" src={LinkedinLogo} />
           </a>
-          <a href="https://au.linkedin.com/in/abbie-ongheen-742731102">
+          <a href="https://www.instagram.com/abbieongheen1/">
             <img className="socialMediaLinkImg" src={InstagramLogo} />
           </a>
         </div>
