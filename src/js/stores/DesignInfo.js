@@ -5,12 +5,12 @@ import railsbusinesscardconceptback from "../../img/design/railsbusinesscardconc
 import railsbusinesscardconceptfront from "../../img/design/railsbusinesscardconceptfront.jpg";
 import railsmobileconcept from "../../img/design/railsmobileconcept.jpg";
 import railswebconcept from "../../img/design/railswebconcept.jpg";
-import greatbarrieralphabet from "../../img/design/greatbarrieralphabet.png";
-import greatbarrierposter from "../../img/design/greatbarrierposter.png";
-import greatbarrierinstagram from "../../img/design/greatbarrierinstagram.png";
-import niorangelogo from "../../img/design/niorangelogo.png";
-import yourwaygreenlogo from "../../img/design/yourwaygreenlogo.png";
-import yourwayyellowlogo from "../../img/design/yourwayyellowlogo.png";
+import greatbarrieralphabet from "../../img/design/greatbarrieralphabet.jpg";
+import greatbarrierposter from "../../img/design/greatbarrierposter.jpg";
+import greatbarrierinstagram from "../../img/design/greatbarrierinstagram.jpg";
+import niorangelogo from "../../img/design/niorangelogo.jpg";
+import yourwaygreenlogo from "../../img/design/yourwaygreenlogo.jpg";
+import yourwayyellowlogo from "../../img/design/yourwayyellowlogo.jpg";
 
 export const designs = [
   {

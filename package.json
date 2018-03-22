@@ -32,7 +32,7 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build&&aws s3 sync build/ s3://abbieongheen.com --delete",
     "sass-watch": "sass --watch src/scss:src/css",
-    "compress-illustration": "magick mogrify -path src/img/illustrations/ -strip -geometry x2000 -interlace Plane -gaussian-blur 0.02 -quality 90% src/img/illustrationsOG/*",
-    "compress-design": "magick mogrify -path src/img/design/ -strip -geometry x2000 -interlace Plane -gaussian-blur 0.02 -quality 90% src/img/designOG/*"
+    "compress-illustration": "magick mogrify -path src/img/illustrations/ -format jpg -strip -geometry x2000 -interlace Plane -gaussian-blur 0.02 -quality 90% src/img/illustrationsOG/*",
+    "compress-design": "magick mogrify -path src/img/design/ -format jpg -strip -geometry x2000 -interlace Plane -gaussian-blur 0.02 -quality 90% src/img/designOG/*"
   }
 }
