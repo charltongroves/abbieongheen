@@ -8,7 +8,6 @@ import railswebconcept from "../../img/design/railswebconcept.jpg";
 import greatbarrieralphabet from "../../img/design/greatbarrieralphabet.png";
 import greatbarrierposter from "../../img/design/greatbarrierposter.png";
 import greatbarrierinstagram from "../../img/design/greatbarrierinstagram.png";
-import kneadkitty from "../../img/design/kneadkitty.jpg";
 import niorangelogo from "../../img/design/niorangelogo.png";
 import yourwaygreenlogo from "../../img/design/yourwaygreenlogo.png";
 import yourwayyellowlogo from "../../img/design/yourwayyellowlogo.png";
@@ -18,8 +17,7 @@ export const designs = [
     label: "Expanding Discrete States Window Decal Concept",
     image: craftanddesignconcept,
     key: "craftanddesignconcept",
-    description:
-      "concept design for the Expanding Discrete States: Craft and Design art exhibition",
+    description: "",
     explanation: [
       "This concept design for a window decal for the art exhibition ‘Expanding Discrete States: Craft and Design’ was such a delight to work on as it combined my two loves: illustration and typography. They wanted signage that fit with their themes of Queensland, local makers, handmade and sustainability. This is exhibited through the hand drawn illustrations and type.",
     ],
@@ -29,8 +27,7 @@ export const designs = [
     label: "Griffith University Artwork Concept",
     image: griffithartworkconcept,
     key: "griffithartworkconcept",
-    description:
-      "concept design for an illustrative style poster for the Griffith undergraduate course guide",
+    description: "",
     explanation: [
       "Concept illustration for a Griffith University poster pullout in the Griffith Undergraduate study guide. Digital Art. ",
     ],
@@ -40,7 +37,7 @@ export const designs = [
     label: "Rails Illustration Concept Designs",
     image: railsartworkconcept,
     key: "railsartworkconcept",
-    description: "concept designs for illustrations for the Rails website",
+    description: "Concept designs for illustrations for the Rails website",
     explanation: [
       "The brief set by RAILS (Refugee and Immigration Legal Service) required a full rebrand of their website, logo, and business cards. The company had requested a rebrand that both showed professionalism and appealed to families with children. ",
 
