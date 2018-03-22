@@ -38,13 +38,14 @@ class Nav extends Component {
   handleClose = () => this.setState({ navOpen: false });
 
   render() {
-    console.log(this.props.currentRoute);
-    console.log(this.props.currentRoute.split("/")[1]);
-
+    var currentRouteRoot = this.props.currentRoute
+      ? this.props.currentRoute.split("/")[1]
+      : this.props.currentRoute;
+    if (currentRouteRoot === "") {
+      currentRouteRoot = "illustration";
+    }
     const activeTab = _.findWhere(this.tabs, {
-      route: this.props.currentRoute
-        ? this.props.currentRoute.split("/")[1]
-        : this.props.currentRoute,
+      route: currentRouteRoot,
     }).name;
     return (
       <div className={"navContainer"}>

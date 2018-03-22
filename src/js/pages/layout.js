@@ -12,15 +12,13 @@ import ContactPage from "./contact";
 import DesignActive from "./designActive";
 import IllustrationActive from "./illustrationActive";
 import titeImage from "../../img/AbbieNamePurpleSite.png";
+
 class Layout extends Component {
   constructor(props) {
     super(props);
     this.state = {
       title: "Abbie Ongheen",
     };
-    if (props.location.pathname === "" || props.location.pathname === "/") {
-      props.history.push("/illustration");
-    }
   }
   render() {
     return (

@@ -6,17 +6,10 @@
 
 .illustrationImageWrapper {
   padding: 1rem;
-  width: calc(25% - 2rem);
+  width: calc(33% - 2rem);
 }
 .illustrationImage {
   width: 100%;
-}
-
-@media (max-width: 1400px) {
-  .illustrationImageWrapper {
-    padding: 1rem;
-    width: calc(33% - 2rem);
-  }
 }
 
 @media (max-width: 1000px) {

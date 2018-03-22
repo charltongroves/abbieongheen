@@ -3,6 +3,7 @@ import "../../css/home.css";
 import contactInfo from "../stores/ContactInfo";
 import _ from "underscore";
 import { Link } from "react-router-dom";
+import AnimatedWrapper from "../components/AnimatedWrapper";
 
 class illustration extends Component {
   constructor(props) {
@@ -15,11 +16,13 @@ class illustration extends Component {
   }
   render() {
     return (
-      <div className="Contact">
-        {_.map(contactInfo.about, paragraph => (
-          <div className="descText">{paragraph}</div>
-        ))}
-      </div>
+      <AnimatedWrapper>
+        <div className="Contact">
+          {_.map(contactInfo.about, paragraph => (
+            <div className="descText">{paragraph}</div>
+          ))}
+        </div>
+      </AnimatedWrapper>
     );
   }
 }
