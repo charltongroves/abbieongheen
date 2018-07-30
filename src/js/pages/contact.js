@@ -3,6 +3,7 @@ import "../../css/home.css";
 import contactInfo from "../stores/ContactInfo";
 import _ from "underscore";
 import { Link } from "react-router-dom";
+import SocialMedia from "../components/SocialMedia";
 import AnimatedWrapper from "../components/AnimatedWrapper";
 
 class illustration extends Component {
@@ -24,6 +25,9 @@ class illustration extends Component {
           <a href={"/resume.pdf"}>
             <div className="linkText">{contactInfo.resumeLabel}</div>
           </a>
+        </div>
+        <div className="ContactSocialMediaContainer">
+          <SocialMedia />
         </div>
       </AnimatedWrapper>
     );

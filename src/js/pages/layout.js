@@ -21,11 +21,12 @@ class Layout extends Component {
     };
   }
   render() {
+    const navIsDisabled =
+      this.props.location.pathname.match(/^\/illustration\//i) ||
+      this.props.location.pathname.match(/^\/design\//i);
     return (
-      <div className="layoutGrid">
-        <div className="title">
-          <img className="titleImage" src={titeImage} alt="Abbie Ongheen" />
-        </div>
+      <div className={navIsDisabled ? "layoutGrid navDisabled" : "layoutGrid"}>
+        <div className="title">Abbie Ongheen</div>
         <Nav
           currentRoute={this.props.location.pathname}
           title={this.state.title}

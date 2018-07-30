@@ -19,6 +19,7 @@ class Tab extends Component {
     const containerClasses = this.props.active ? "tab active" : "tab";
     return (
       <div className={containerClasses}>
+        <div className="activeBall" />
         <Link to={this.props.link}>
           <div className={"tabText"}>{this.props.label}</div>
         </Link>

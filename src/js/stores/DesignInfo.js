@@ -24,16 +24,6 @@ export const designs = [
     imageSet: [{ image: craftanddesignconcept }, craftanddesignconcept],
   },
   {
-    label: "Griffith University Artwork Concept",
-    image: griffithartworkconcept,
-    key: "griffithartworkconcept",
-    description: "",
-    explanation: [
-      "Concept illustration for a Griffith University poster pullout in the Griffith Undergraduate study guide. Digital Art. ",
-    ],
-    imageSet: [{ image: griffithartworkconcept }, griffithartworkconcept],
-  },
-  {
     label: "Rails Illustration Concept Designs",
     image: railsartworkconcept,
     key: "railsartworkconcept",
