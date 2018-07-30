@@ -239,13 +239,13 @@ a {
 
   .layoutGrid {
     grid-template-columns: 6rem 1fr 1fr 1fr;
-    grid-template-rows: 4rem 0rem 20rem auto; }
+    grid-template-rows: 3rem 0rem 20rem auto; }
     .layoutGrid .navContainer {
       grid-column: 1/5;
       grid-row: 1;
       padding: 0rem 0.5rem 0rem 0.25rem;
       display: flex;
       align-items: center;
-      justify-content: space-between; } }
+      justify-content: space-around; } }
 
 /*# sourceMappingURL=main.css.map */
