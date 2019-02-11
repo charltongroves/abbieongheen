@@ -21,7 +21,7 @@ class Design extends Component {
     return (
       <AnimatedWrapper>
         <div className="designActive">
-          <Link to={"/design"}>
+          <Link to={"/work"}>
             <div className="back-arrow-container">
               <i className="back-arrow material-icons">arrow_back</i>
               <span className="back-arrow-text"> Back </span>

@@ -13,14 +13,9 @@ class Nav extends Component {
     };
     this.tabs = [
       {
-        index: 0,
-        name: "Illustration",
-        route: "illustration",
-      },
-      {
         index: 1,
-        name: "Design",
-        route: "design",
+        name: "Work",
+        route: "work",
       },
       {
         index: 2,
@@ -41,22 +36,30 @@ class Nav extends Component {
       ? this.props.currentRoute.split("/")[1]
       : this.props.currentRoute;
     if (currentRouteRoot === "") {
-      currentRouteRoot = "illustration";
+      currentRouteRoot = "work";
     }
     const activeTab = _.findWhere(this.tabs, {
       route: currentRouteRoot,
     }).name;
     return (
       <div className={"navContainer"}>
-        {_.map(this.tabs, tab => (
-          <Tab
-            key={tab.name}
-            label={tab.name}
-            link={"/" + tab.route}
-            active={activeTab === tab.name}
-          />
-        ))}
-        <SocialMedia />
+        <div className={"navWrapper"}>
+          <div>
+            <div className="title">ABBIE</div>
+            <div className="title">ONG-</div>
+            <div className="title">HEEN</div>
+          </div>
+          <div className="tabsContainer">
+            {_.map(this.tabs, tab => (
+              <Tab
+                key={tab.name}
+                label={tab.name}
+                link={"/" + tab.route}
+                active={activeTab === tab.name}
+              />
+            ))}
+          </div>
+        </div>
       </div>
     );
   }
