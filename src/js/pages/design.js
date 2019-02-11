@@ -15,7 +15,7 @@ class Design extends Component {
               <div key={data.label} className="illustrationImageWrapper">
                 <Link
                   key={data.key}
-                  to={"/design" + "/" + data.key}
+                  to={"/work" + "/" + data.key}
                   onClick={this.handleOnLinkClick}
                 >
                   <img className="illustrationImage" src={data.image} />

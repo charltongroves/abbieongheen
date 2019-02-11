@@ -1,14 +1,14 @@
 export const contact = {
   about: [
-    "Hi I'm abbie ",
+    "Hi, I’m Abbie",
 
-    "I’m a visual communication designer from Brisbane, Australia striving to apply creative design thinking and interdisciplinary knowledge to all projects.",
+    "I’m a visual communication designer from Brisbane, Australia. I strive to apply creative design thinking and my interdisciplinary knowledge to all projects.",
 
-    "From a young age I have been constantly creating. Throughout my schooling I was alwyas engaging in the arts, including performing in the school musicals, playing the clarinet and piano and performing in an indie rock band. ",
+    "From very young I’ve been constantly learning and creating. Throughout my schooling I was always engaging with the arts. I performed in school musicals, played the clarinet and piano and performed in an indie rock band.",
 
-    "Today, my main hobbies are interacting with the music scene and seeing bands perform, creating illustration work and experimenting with many different arts and crafts mediums. ",
+    "Today, my hobbies include interacting with the music scene, creating illustrative works and constantly trying to immerse myself in new ideas, mediums and culture. ",
 
-    "I’m passionate about rebranding, brand design, and creating highly effective solutions to briefs. I love embedding my knowledge and passion for typography and illustration into all my projects.",
+    "I’m driven by the opportunity to learn and discover more and using that acquired knowledge to inform my design and illustration projects.",
 
     "Commision inquiries at ongheen@gmail.com",
   ],
