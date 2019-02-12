@@ -1,61 +1,47 @@
-import craftanddesignconcept from "../../img/design/craftanddesignconcept.jpg";
-import griffithartworkconcept from "../../img/design/griffithartworkconcept.jpg";
-import railsartworkconcept from "../../img/design/railsartworkconcept.jpg";
-import railsbusinesscardconceptback from "../../img/design/railsbusinesscardconceptback.jpg";
-import railsbusinesscardconceptfront from "../../img/design/railsbusinesscardconceptfront.jpg";
-import railsmobileconcept from "../../img/design/railsmobileconcept.jpg";
-import railswebconcept from "../../img/design/railswebconcept.jpg";
-import greatbarrieralphabet from "../../img/design/greatbarrieralphabet.jpg";
-import greatbarrierposter from "../../img/design/greatbarrierposter.jpg";
-import greatbarrierinstagram from "../../img/design/greatbarrierinstagram.jpg";
-import niorangelogo from "../../img/design/niorangelogo.jpg";
-import yourwaygreenlogo from "../../img/design/yourwaygreenlogo.jpg";
-import yourwayyellowlogo from "../../img/design/yourwayyellowlogo.jpg";
-import linoKitty from "../../img/illustrations/linokitty.jpg";
-import redpanda from "../../img/illustrations/redpanda.jpg";
-import trashPanda from "../../img/illustrations/trashpanda.jpg";
-import houses from "../../img/illustrations/houses.jpg";
-import jellyfish from "../../img/illustrations/jellyfish.jpg";
-import treeshousescircle from "../../img/illustrations/houses.jpg";
-import kneadkitty from "../../img/illustrations/kneadkitty.jpg";
-import redpandascream from "../../img/illustrations/redpandascream.jpg";
-import bigblackcat from "../../img/illustrations/bigblackcat.jpg";
-import Skillsimpactcovermockup from "../../img/design/Skillsimpactcovermockup.png";
-import Skillsinfographics from "../../img/design/Skillsinfographics.png";
-import skillsinfographics2 from "../../img/design/skillsinfographics2.png";
-import Skillsimpactspreadmockup1 from "../../img/design/Skillsimpactspreadmockup1.png";
-import Skillsimpactspreadmockup2 from "../../img/design/Skillsimpactspreadmockup2.png";
-import Skillsimpactspreadmockup3 from "../../img/design/Skillsimpactspreadmockup3.png";
-import Littlemanheader from "../../img/Littlemanheader.png";
-import littlemanepkspread1 from "../../img/littlemanepkspread1.png";
+import Skillsimpactcovermockup from "../../img/design/skillsimpactcovermockup.jpg";
+import Skillsinfographics from "../../img/design/skillsinfographics.jpg";
+import skillsinfographics2 from "../../img/design/skillsinfographics2.jpg";
+import Skillsimpactspreadmockup1 from "../../img/design/skillsimpactspread1mockup.jpg";
+import Skillsimpactspreadmockup2 from "../../img/design/skillsimpactspread2mockup.jpg";
+import Skillsimpactspreadmockup3 from "../../img/design/skillsimpactspread3mockup.jpg";
+import Littlemanheader from "../../img/design/Littlemanheader.jpg";
+import littlemanepkspread1 from "../../img/design/littlemanepkspread1.jpg";
 
-import trilogyheader from "../../img/trilogyheader.png";
-import Trilogyemailsignature1 from "../../img/Trilogyemailsignature1.png";
-import Trilogyemailsignature2 from "../../img/Trilogyemailsignature2.png";
-import Trilogynestegggif from "../../img/Trilogynestegggif.png";
-import Trilogyreadersdigest from "../../img/Trilogyreadersdigest.png";
-import trilogyindustrialgif from "../../img/trilogyindustrialgif.gif";
+import trilogyheader from "../../img/design/trilogyheader.jpg";
+import Trilogyemailsignature1 from "../../img/design/trilogyemailsignature1.jpg";
+import Trilogyemailsignature2 from "../../img/design/trilogyemailsignature2.jpg";
+import Trilogynestegggif from "../../img/design/trilogynestegggif.gif";
+import Trilogyreadersdigest from "../../img/design/trilogyreadersdigest.jpg";
+import trilogyindustrialgif from "../../img/design/trilogyindustrialgif.gif";
 
-import railsheader from "../../img/railsheader.png";
-import Railsboysgif from "../../img/Railsboysgif.gif";
-import Railsbusinesscards from "../../img/Railsbusinesscards.png";
-import railsillustration from "../../img/railsillustration.png";
+import railsheader from "../../img/design/railsheader.jpg";
+import Railsboysgif from "../../img/design/railsboysgif.gif";
+import Railsbusinesscards from "../../img/design/railsbusinesscards.jpg";
+import railsillustration from "../../img/design/railsillustration.jpg";
+
+import Greatbarriergriefheader1 from "../../img/design/greatbarriergriefheader1.jpg";
+import Greatbarriergriefpostermockup from "../../img/design/greatbarriergriefpostermockup.jpg";
+import Greatbarriergriefinstagram_1 from "../../img/design/greatbarriergriefinstagram_1.jpg";
+import Greatbarrierregularfontset from "../../img/design/greatbarriergriefpostermockup.jpg";
+import greatbarrierregularfontsetrough from "../../img/design/greatbarriergriefpostermockup.jpg";
+
+import odiheader from "../../img/design/odiheader.jpg";
+import Odicovermockup from "../../img/design/odicovermockup.jpg";
+import Odiinsidemockup from "../../img/design/odiinsidemockup.jpg";
+import Odiinsidemockup2 from "../../img/design/odiinsidemockup2.jpg";
+import Scansabbiezine2 from "../../img/design/scansabbiezine 2.jpg";
+import outsiderfacebookcover from "../../img/design/outsiderfacebookcover.jpg";
+import Workshopimage1 from "../../img/design/workshopimage1.jpg";
+import Workshopimage2 from "../../img/design/workshopimage2.jpg";
+import Workshopmapping from "../../img/design/workshopmapping.jpg";
+import Outsidertote from "../../img/design/outsidertote.jpg";
+import outsiderprofile from "../../img/design/Outsiderprofile.jpg";
 
 export const designs = [
   {
-    label: "Expanding Discrete States Window Decal Concept",
-    image: craftanddesignconcept,
-    key: "craftanddesignconcept",
-    description: "",
-    explanation: [
-      "This concept design for a window decal for the art exhibition ‘Expanding Discrete States: Craft and Design’ was such a delight to work on as it combined my two loves: illustration and typography. They wanted signage that fit with their themes of Queensland, local makers, handmade and sustainability. This is exhibited through the hand drawn illustrations and type.",
-    ],
-    imageSet: [{ image: craftanddesignconcept }, craftanddesignconcept],
-  },
-  {
     label: "Skills Impact",
     image: Skillsimpactcovermockup,
-    key: "craftanddesignconcept",
+    key: "Skillsimpactcovermockup",
     description: "",
     explanation: [
       "“Skills Impact is a national not-for-profit Skills Service Organisation (SSO), contracted by the Commonwealth Government.” (Skills Impact). I Designed the visual identity for Skills Impact and implemented it in a series of infographics and the Skills Impact Year in Review (annual report). The designs were based on the colours of their current logo and the need for a system to be designed for both the infographics and information in the Year in Review. ",
@@ -73,7 +59,7 @@ export const designs = [
   {
     label: "Little Man EPK",
     image: Littlemanheader,
-    key: "craftanddesignconcept",
+    key: "Littlemanheader",
     description: "",
     explanation: [
       "Created a document design for the Short Film “Little Man” by Nicholas Allison. Nicholas’ aim was to create a clean, readable document that utilized white space and had quirky collages and child-like scribbles that reflected the story of the film.",
@@ -84,7 +70,7 @@ export const designs = [
   {
     label: "Trilogy",
     image: trilogyheader,
-    key: "craftanddesignconcept",
+    key: "trilogyheader",
     description: "",
     explanation: [
       "I have completed numerous jobs for Trilogy whilst at Loa Branding. These include, but are not limited to: Regulatory guides (RGs), Product Disclosure Statements (PDS), web advertising images and gifs, print advertising, email signatures, forms and applications",
@@ -101,7 +87,7 @@ export const designs = [
   {
     label: "RAILS",
     image: railsheader,
-    key: "craftanddesignconcept",
+    key: "railsheader",
     description: "",
     explanation: [
       "The brief set by RAILS (Refugee and Immigration Legal Service) required a full redesign of their website, logo, and business cards. The company had requested a new design that both showed professionalism and appealed to families with children.",
@@ -132,86 +118,53 @@ export const designs = [
     credits: "Designed as part of Typography assessment at Griffith University",
   },
   {
-    label: "Great Barrier Grief Alphabet Set",
-    image: greatbarrierposter,
-    key: "greatbarrieralphabet",
-    description: "",
+    label: "ODI",
+    image: odiheader,
+    key: "odiheader",
+    description:
+      "To create the design for the Four Year Review for ODI, I followed an existing identity designed by Loa Branding. I created the cover illustration to fit with the existing brand and used the existing assets to enhance the layouts throughout. ",
+    imageSet: [
+      { image: Odicovermockup },
+      { image: Odiinsidemockup },
+      { image: Odiinsidemockup2 },
+    ],
+  },
+  {
+    label: "Zine Assignment",
+    image: Scansabbiezine2,
+    key: "Scansabbiezine2",
+    description:
+      "This zine was created as an expression of my absurdist values and a way for me to feel at peace with the state of the world we live in. It was created using a mixture of both digital art, photo manipulation and gouage painting. It was printed as a Risograph zine, and was also designed for viewing on screen.",
+    imageSet: [
+      {
+        zine:
+          "https://e.issuu.com/anonymous-embed.html?u=abbieongheen&d=abbie_ongheen_booklet_digital",
+      },
+    ],
+    credits:
+      "Final Visual Communication Design assessment at Griffith University. Printed through Helio Press, Melbourne.",
+  },
+
+  {
+    label: "Outsider Fest",
+    image: outsiderfacebookcover,
+    key: "outsiderfacebookcover",
+    description:
+      "The aim of this project was to foster a sense of belonging in young adults who may feel lonely or isolated in their communities. This was a participatory design project, involving stakeholders in the development and / or design process.Our team selected a cross section of young adults(18 - 30 - year old’s) from the local community to participate in workshops to with the goal of addressing the lack of a sense of belonging in their communities. ",
     explanation: [
-      "The aim of this project was to design a typeface which highlighted the destruction of the Great Barrier Reef. In addition to this, I wanted the typeface to be funky, contemporary, and be able to be used in broader placements. This is why I’ve created my destruction element as a set of alternate character. The base set of this typeface would be perfectly suitable for a wide range of placements. It would particularly be effective in posters and advertising, due to its mono-line, uppercase structure.",
-
-      "To save it from being harsh, and to keep with the contemporary feel I wanted to achieve, I’ve made the arms and crossbars of many letters (e.g., E and H) slightly higher than the centre line. I’ve also made some interesting retro style curves (e.g. B and D) which also portray this feel.",
-
-      "In displaying my type poster, I have been strategic in all elements to make the outcome effective. My most reflective is the precise placement of the alternates. Not only do they spell out the word “grief” but they are also roughly the same percentage of letters destroyed in the poster as the amount of the Great Barrier Reef that was destroyed in 2016. I’ve also displayed my type in white which reflects the bleaching, and this also bleeds down into my coral imagery, which has some bleaching beginning to fade into the rest of the coral.",
+      "The aim of this project was to foster a sense of belonging in young adults who may feel lonely or isolated in their communities. This was a participatory design project, involving stakeholders in the development and / or design process.Our team selected a cross section of young adults(18 - 30 - year old’s) from the local community to participate in workshops to with the goal of addressing the lack of a sense of belonging in their communities. ",
+      "The outcome of the designed project as informed by the participants was an inclusive festival, named “Outsider Fest.” The festival aimed to bring together young adults from broad communities, providing them with a platform to form meaningful connections with one other. Rather than creating the festival, an event manual and event style guide was created so that local communities could host their own “Outsider Fest” events. This was one way for the outcome to be adaptable to a wide range of contexts and for it to be a constantly evolving outcome, rather than a static one.",
+      "Logo design and style guidelines designed by me, copy written by myself and Emily Stewart.",
     ],
     imageSet: [
-      { image: greatbarrierposter },
-      { image: greatbarrieralphabet },
-      { image: greatbarrierinstagram },
+      { image: Workshopimage1 },
+      { image: Workshopimage2 },
+      { image: Workshopmapping },
+      { image: Outsidertote },
+      { image: outsiderprofile },
     ],
-  },
-  {
-    label: "No Interval Logo",
-    image: niorangelogo,
-    key: "niorangelogo",
-    description: "Logo design for Brisbane theatre company, No Interval",
-    explanation: [
-      "No Interval is a local theatre company run by recent acting school graduates. They focus on contemporary work that is gritty and raw, and this needed to be reflected in the logo design. The type is textured and the typeface is slab serif- like that used in a script. The brackets create an interval effect, and are also the kind of brackets used in stage directions in scripts. ",
-    ],
-    imageSet: [{ image: niorangelogo }],
-  },
-  {
-    label: "YourWay Logo: Green",
-    image: yourwaygreenlogo,
-    key: "yourwaygreenlogo",
-    description: "Logo design for hypothetical education program, YourWay",
-    explanation: [
-      "YourWay was a fictional collaborative project which aimed to provide educational services to young people living in remote or rural areas. It focused on providing them with options and opportunities to further their careers past high school. This logo design needed to be appealing to young people with lively colours and contemporary type.",
-    ],
-    imageSet: [{ image: yourwaygreenlogo }, { image: yourwayyellowlogo }],
-  },
-  {
-    label: "Big Black Cat",
-    image: bigblackcat,
-    key: "bigblackcat",
-    description: "A large black kitty in gouache",
-    imageSet: [bigblackcat],
-  },
-
-  {
-    label: "Forest Village",
-    image: treeshousescircle,
-    key: "treeshousescircle",
-    description: "A forest village painted in gouache",
-    imageSet: [treeshousescircle],
-  },
-
-  {
-    label: "I Knead You",
-    image: kneadkitty,
-    key: "kneadkitty",
-    description: "A pencil artwork for Valentines Day",
-    imageSet: [kneadkitty],
-  },
-  {
-    label: "Red Panda",
-    image: redpandascream,
-    key: "redpandascream",
-    description: "Red panda illustration in pencil",
-    imageSet: [redpandascream],
-  },
-  {
-    label: "Trash Panda",
-    image: trashPanda,
-    key: "trashPanda",
-    description: "",
-    imageSet: [trashPanda, linoKitty],
-  },
-  {
-    label: "Lino Kitty",
-    image: linoKitty,
-    key: "linoKitty",
-    description: "",
-    imageSet: [linoKitty, linoKitty],
+    credits:
+      "Assessment at Griffith University, designed with Bridget Ryan, Emily Stewart, Elke Nutting, Carla Vizgaudis, Aileen Ma",
   },
 ];
 
