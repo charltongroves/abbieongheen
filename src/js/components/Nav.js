@@ -44,10 +44,11 @@ class Nav extends Component {
     return (
       <div className={"navContainer"}>
         <div className={"navWrapper"}>
-          <div>
+          <div className="titleContainer">
             <div className="title">ABBIE</div>
             <div className="title">ONG-</div>
             <div className="title">HEEN</div>
+            <div className="mobileTitle">ABBIE ONGHEEN</div>
           </div>
           <div className="tabsContainer">
             {_.map(this.tabs, tab => (
