@@ -6,12 +6,9 @@ import "../../css/art.css";
 import "../../css/design.css";
 import "../../css/contact.css";
 
-import IllustrationPage from "./illustration";
 import DesignPage from "./design";
 import ContactPage from "./contact";
 import DesignActive from "./designActive";
-import IllustrationActive from "./illustrationActive";
-import titeImage from "../../img/AbbieNamePurpleSite.png";
 
 class Layout extends Component {
   constructor(props) {
@@ -31,7 +28,7 @@ class Layout extends Component {
         <div className="content">
           <div className="contentWrapper">
             <Switch>
-              <Route exact path="/" component={IllustrationPage} />
+              <Route exact path="/" component={DesignPage} />
               <Route exact path="/work" component={DesignPage} />
               <Route path="/work/:designName" component={DesignActive} />
               <Route exact path="/contact" component={ContactPage} />

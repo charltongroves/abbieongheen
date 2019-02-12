@@ -1,7 +1,8 @@
 @import url("https://use.typekit.net/ieh2fcm.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 html {
-  color: #313638;
-  font-family: "urw-Din", sans-serif;
+  color: #2c4251;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   background: #fefcfc; }
 
@@ -43,18 +44,23 @@ html {
   margin-right: 1.5rem; }
 
 .back-arrow-container {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   height: 2rem;
   margin-top: -3rem;
+  padding-right: 1rem;
   padding-bottom: 1rem; }
 
 .back-arrow {
-  color: #313638;
+  color: #2c4251;
   font-size: 2.5rem; }
 
 .back-arrow-text {
-  color: #313638;
+  color: #2c4251;
   font-size: 1.5rem; }
 
 .tabsContainer {
@@ -63,7 +69,9 @@ html {
 
 .titleText {
   font-size: 2rem;
-  margin: 0 0 2rem 0; }
+  margin: 0 0 2rem 0;
+  letter-spacing: 0.125rem;
+  font-weight: 700; }
 
 .descText {
   font-family: "urw-din", sans-serif;
@@ -105,7 +113,7 @@ html {
     display: flex; }
   .layoutGrid .navWrapper {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     justify-content: space-between;
     display: flex; }
   .layoutGrid .content {
@@ -122,7 +130,7 @@ html {
     .layoutGrid .content::-webkit-scrollbar-track-piece {
       background-color: #ffc7cb; }
   .layoutGrid .contentWrapper {
-    max-width: 1200px;
+    max-width: 1000px;
     height: 100%; }
   .layoutGrid .title {
     display: flex;
@@ -184,7 +192,7 @@ a {
       line-height: 2rem; }
 
   .tab {
-    color: #313638;
+    color: #2c4251;
     padding: 0.5rem 0; }
 
   .tabText {
@@ -233,7 +241,7 @@ a {
     padding-top: 0rem; } }
 @media (max-width: 400px) {
   .tab {
-    color: #313638;
+    color: #2c4251;
     padding: 0.5rem 0rem 0.5rem 0rem; }
 
   .activeBall {

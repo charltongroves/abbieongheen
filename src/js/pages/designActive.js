@@ -27,6 +27,7 @@ class Design extends Component {
               <span className="back-arrow-text"> Back </span>
             </div>
           </Link>
+          <img className="bannerImg" src={designInfo.image} />
           <div className="titleText">{designInfo.label}</div>
           <div className="descText">{designInfo.description}</div>
           {_.map(designInfo.explanation, paragraph => (
