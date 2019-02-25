@@ -18,7 +18,13 @@ class Design extends Component {
                   to={"/work" + "/" + data.key}
                   onClick={this.handleOnLinkClick}
                 >
-                  <img className="illustrationImage" src={data.image} />
+                  <div
+                    className="illustrationImage"
+                    style={{
+                      color: "#fff",
+                      backgroundImage: "url(" + data.image + ")",
+                    }}
+                  />
                 </Link>
               </div>
             );

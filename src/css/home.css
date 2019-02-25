@@ -1,22 +1,42 @@
 .illustrationContainer {
   display: flex;
+  justify-content: center;
   width: 100%;
+  height: 100px;
+  width: 1000px;
+  max-width: calc(100vw - 10px);
+  min-height: 100px;
   flex-wrap: wrap; }
 
 .illustrationImageWrapper {
-  padding: 1rem;
-  width: calc(33% - 2rem); }
+  height: 200px;
+  width: 33%;
+  display: flex;
+  height: 30; }
+  .illustrationImageWrapper > a {
+    width: 100%; }
+
+.illustrationImageWrapper:hover {
+  opacity: 0.8; }
+
+.illustrationImageWrapper:active {
+  opacity: 0.7; }
 
 .illustrationImage {
-  width: 100%; }
+  height: 200px;
+  min-width: 100%;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover; }
 
 @media (max-width: 1000px) {
   .illustrationImageWrapper {
     padding: 1rem;
-    width: calc(50% - 2rem); } }
+    width: 50%;
+    box-sizing: border-box; } }
 @media (max-width: 600px) {
   .illustrationImageWrapper {
     padding: 1rem;
-    width: calc(100% - 2rem); } }
+    width: 100%; } }
 
 /*# sourceMappingURL=home.css.map */

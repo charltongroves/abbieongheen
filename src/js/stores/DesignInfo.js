@@ -29,13 +29,17 @@ import odiheader from "../../img/design/odiheader.jpg";
 import Odicovermockup from "../../img/design/odicovermockup.jpg";
 import Odiinsidemockup from "../../img/design/odiinsidemockup.jpg";
 import Odiinsidemockup2 from "../../img/design/odiinsidemockup2.jpg";
-import Scansabbiezine2 from "../../img/design/scansabbiezine 2.jpg";
+import Scansabbiezine2 from "../../img/design/scansabbiezine_2.jpg";
 import outsiderfacebookcover from "../../img/design/outsiderfacebookcover.jpg";
 import Workshopimage1 from "../../img/design/workshopimage1.jpg";
 import Workshopimage2 from "../../img/design/workshopimage2.jpg";
 import Workshopmapping from "../../img/design/workshopmapping.jpg";
 import Outsidertote from "../../img/design/outsidertote.jpg";
 import outsiderprofile from "../../img/design/Outsiderprofile.jpg";
+
+import Ilvstationerymockup from "../../img/design/ilvstationerymockup.jpg";
+import Ilvcardsmockup from "../../img/design/ilvcardsmockup.jpg";
+import ilvfullheader from "../../img/design/ilvfullheader.jpg";
 
 export const designs = [
   {
@@ -64,8 +68,29 @@ export const designs = [
     explanation: [
       "Created a document design for the Short Film “Little Man” by Nicholas Allison. Nicholas’ aim was to create a clean, readable document that utilized white space and had quirky collages and child-like scribbles that reflected the story of the film.",
     ],
-    imageSet: [{ image: littlemanepkspread1 }],
+    imageSet: [
+      { image: littlemanepkspread1 },
+      {
+        issuu:
+          "https://e.issuu.com/anonymous-embed.html?u=abbieongheen&d=little_man_epk_final_small_file",
+      },
+    ],
     credits: "All photographs supplied by Nicholas Allison",
+  },
+  {
+    label: "Ijslandvaarders",
+    image: ilvfullheader,
+    key: "Ijslandvaarders",
+    description: "",
+    explanation: [
+      "Ijslandvaarders is a theatre company based in Belgium. The mark for Ijslandvaarders was designed by Gary Schmidt and I assisted with crafting all the angles in the mark to ensure a mechanical feel. The mark also aims to have a rhythmic feel, mirroring the rhythms of movement in theatrical performance. I also designed the business card and letterhead for Ijslandvaarders, aiming for simplicity surrounding the complex mark.",
+    ],
+    imageSet: [
+      { image: Ilvstationerymockup },
+      { image: Ilvcardsmockup },
+      { image: ilvfullheader },
+    ],
+    credits: "Mark by Gary Schmidt at Loa Branding. Designed at Loa Branding",
   },
   {
     label: "Trilogy",
@@ -137,7 +162,7 @@ export const designs = [
       "This zine was created as an expression of my absurdist values and a way for me to feel at peace with the state of the world we live in. It was created using a mixture of both digital art, photo manipulation and gouage painting. It was printed as a Risograph zine, and was also designed for viewing on screen.",
     imageSet: [
       {
-        zine:
+        issuu:
           "https://e.issuu.com/anonymous-embed.html?u=abbieongheen&d=abbie_ongheen_booklet_digital",
       },
     ],

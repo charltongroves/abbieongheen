@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 import { Switch, Route } from "react-router-dom";
 import "../../css/main.css";
 import "../../css/art.css";
@@ -35,6 +36,10 @@ class Layout extends Component {
             </Switch>
           </div>
         </div>
+        <Footer
+          currentRoute={this.props.location.pathname}
+          title={this.state.title}
+        />
       </div>
     );
   }
