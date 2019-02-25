@@ -18,8 +18,10 @@ class Design extends Component {
                   to={"/work" + "/" + data.key}
                   onClick={this.handleOnLinkClick}
                 >
-                  <img className="illustrationImage" src={data.image} />
-                  <div className="transparentOverlay" />
+                  <div className="illustrationImageAndOverlayWrapper">
+                    <img className="illustrationImage" src={data.image} />
+                    <div className="transparentOverlay" />
+                  </div>
                 </Link>
               </div>
             );

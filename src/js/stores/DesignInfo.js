@@ -22,8 +22,8 @@ import railsillustration from "../../img/design/railsillustration.jpg";
 import Greatbarriergriefheader1 from "../../img/design/greatbarriergriefheader1.jpg";
 import Greatbarriergriefpostermockup from "../../img/design/greatbarriergriefpostermockup.jpg";
 import Greatbarriergriefinstagram_1 from "../../img/design/greatbarriergriefinstagram_1.jpg";
-import Greatbarrierregularfontset from "../../img/design/greatbarriergriefpostermockup.jpg";
-import greatbarrierregularfontsetrough from "../../img/design/greatbarriergriefpostermockup.jpg";
+import Greatbarrierregularfontset from "../../img/design/greatbarriergriefheader2.jpg";
+import greatbarrierregularfontsetrough from "../../img/design/greatbarrieralphabet.jpg";
 
 import odiheader from "../../img/design/odiheader.jpg";
 import Odicovermockup from "../../img/design/odicovermockup.jpg";
@@ -36,6 +36,8 @@ import Workshopimage2 from "../../img/design/workshopimage2.jpg";
 import Workshopmapping from "../../img/design/workshopmapping.jpg";
 import Outsidertote from "../../img/design/outsidertote.jpg";
 import outsiderprofile from "../../img/design/Outsiderprofile.jpg";
+import outsiderspreads1 from "../../img/design/outsiderspreads1.jpg";
+import outsiderspreads2 from "../../img/design/outsiderspreads2.jpg";
 
 import Ilvstationerymockup from "../../img/design/ilvstationerymockup.jpg";
 import Ilvcardsmockup from "../../img/design/ilvcardsmockup.jpg";
@@ -174,8 +176,6 @@ export const designs = [
     label: "Outsider Fest",
     image: outsiderfacebookcover,
     key: "outsiderfacebookcover",
-    description:
-      "The aim of this project was to foster a sense of belonging in young adults who may feel lonely or isolated in their communities. This was a participatory design project, involving stakeholders in the development and / or design process.Our team selected a cross section of young adults(18 - 30 - year old’s) from the local community to participate in workshops to with the goal of addressing the lack of a sense of belonging in their communities. ",
     explanation: [
       "The aim of this project was to foster a sense of belonging in young adults who may feel lonely or isolated in their communities. This was a participatory design project, involving stakeholders in the development and / or design process.Our team selected a cross section of young adults(18 - 30 - year old’s) from the local community to participate in workshops to with the goal of addressing the lack of a sense of belonging in their communities. ",
       "The outcome of the designed project as informed by the participants was an inclusive festival, named “Outsider Fest.” The festival aimed to bring together young adults from broad communities, providing them with a platform to form meaningful connections with one other. Rather than creating the festival, an event manual and event style guide was created so that local communities could host their own “Outsider Fest” events. This was one way for the outcome to be adaptable to a wide range of contexts and for it to be a constantly evolving outcome, rather than a static one.",
@@ -187,6 +187,8 @@ export const designs = [
       { image: Workshopmapping },
       { image: Outsidertote },
       { image: outsiderprofile },
+      { image: outsiderspreads1 },
+      { image: outsiderspreads2 },
     ],
     credits:
       "Assessment at Griffith University, designed with Bridget Ryan, Emily Stewart, Elke Nutting, Carla Vizgaudis, Aileen Ma",
