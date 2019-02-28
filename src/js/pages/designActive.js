@@ -29,14 +29,19 @@ class Design extends Component {
             </div>
           </Link>
           <div className="titleText">{designInfo.label}</div>
-          <div className="descText">{designInfo.description}</div>
-          {_.map(designInfo.explanation, paragraph => (
-            <div className="descText">{paragraph}</div>
-          ))}
+          <div className="paragraphContainer descText">
+            {designInfo.description}
+          </div>
+          {_.map(designInfo.explanation, paragraph => {
+            const items = paragraph
+              .split("\n")
+              .map(line => <div className="descText"> {line}</div>);
+            return <div className="paragraphContainer">{items}</div>;
+          })}
           {_.map(designInfo.imageSet, set => (
             <div className="designSet">
               <img className="designSetImg" src={set.image} />
-              <div className="descText">{set.desc}</div>
+              <div className="paragraphContainer descText">{set.desc}</div>
               {set.issuu != null && (
                 <iframe
                   src={set.issuu}
@@ -50,7 +55,9 @@ class Design extends Component {
               )}
             </div>
           ))}
-          <div className="descText">{designInfo.credits}</div>
+          <div className="paragraphContainer descText">
+            {designInfo.credits}
+          </div>
         </div>
       </AnimatedWrapper>
     );

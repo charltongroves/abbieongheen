@@ -43,6 +43,8 @@ import Ilvstationerymockup from "../../img/design/ilvstationerymockup.jpg";
 import Ilvcardsmockup from "../../img/design/ilvcardsmockup.jpg";
 import ilvfullheader from "../../img/design/ilvfullheader.jpg";
 
+import wayfindingheader from "../../img/design/wayfindingheader.jpg";
+
 export const designs = [
   {
     label: "Skills Impact",
@@ -157,21 +159,23 @@ export const designs = [
     ],
   },
   {
-    label: "Zine Assignment",
-    image: Scansabbiezine2,
-    key: "Scansabbiezine2",
-    description:
-      "This zine was created as an expression of my absurdist values and a way for me to feel at peace with the state of the world we live in. It was created using a mixture of both digital art, photo manipulation and gouage painting. It was printed as a Risograph zine, and was also designed for viewing on screen.",
+    label: "Wayfinding Project",
+    image: wayfindingheader,
+    key: "wayfindingheader",
+    explanation: [
+      "In this wayfinding project, our team’s aim was to create a wayfinding system design that connects West End’s past, present and future together through placemaking that recognizes its cultural diversity and welcomes visitors.",
+      "We considered: \n•  Street space for pedestrians\n•  Celebration of local Indigenous culture\n•  Accessibility\n•  Modularity through materials\n•  Local identity",
+      "Although the workload was shared across the team, my role involved site auditing, research, concepting, and all written aspects of the project, including the Design Statement.",
+    ],
     imageSet: [
       {
         issuu:
-          "https://e.issuu.com/anonymous-embed.html?u=abbieongheen&d=abbie_ongheen_booklet_digital",
+          "https://e.issuu.com/anonymous-embed.html?u=abbieongheen&d=abbie__ekle__nopia__gavin_presentat",
       },
     ],
     credits:
-      "Final Visual Communication Design assessment at Griffith University. Printed through Helio Press, Melbourne.",
+      "Created for university assessment with Elke Nutting, Nopia Mapleston and Gavin Lau",
   },
-
   {
     label: "Outsider Fest",
     image: outsiderfacebookcover,
@@ -192,6 +196,21 @@ export const designs = [
     ],
     credits:
       "Assessment at Griffith University, designed with Bridget Ryan, Emily Stewart, Elke Nutting, Carla Vizgaudis, Aileen Ma",
+  },
+  {
+    label: "Zine Assignment",
+    image: Scansabbiezine2,
+    key: "Scansabbiezine2",
+    description:
+      "This zine was created as an expression of my absurdist values and a way for me to feel at peace with the state of the world we live in. It was created using a mixture of both digital art, photo manipulation and gouage painting. It was printed as a Risograph zine, and was also designed for viewing on screen.",
+    imageSet: [
+      {
+        issuu:
+          "https://e.issuu.com/anonymous-embed.html?u=abbieongheen&d=abbie_ongheen_booklet_digital",
+      },
+    ],
+    credits:
+      "Final Visual Communication Design assessment at Griffith University. Printed through Helio Press, Melbourne.",
   },
 ];
 
